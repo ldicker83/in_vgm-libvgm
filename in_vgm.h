@@ -11,11 +11,11 @@
 #else
 
 #define VER_EXTRA	""
-#define VER_DATE	""
+#define VER_DATE	" 2023"
 
 #endif
 
-#define VGMPLAY_VER_STR	"0.51.0"
+#define VGMPLAY_VER_STR	"0.51.1"
 #define VGM_VER_STR		"1.71b"
 #define INVGM_VERSION		VGMPLAY_VER_STR VER_EXTRA
 #define INVGM_TITLE			"VGM Input Plugin v" INVGM_VERSION

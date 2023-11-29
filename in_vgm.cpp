@@ -203,23 +203,29 @@ static void About(HWND hWndParent)
 		" (ANSI build)"
 #endif
 		"\n"
-		"by Valley Bell 2020\n"
+		"by Lee Dicker 2022\n"
 		"\n"
 		"Build date: " __DATE__ " (" INVGM_VERSION ")\n"
 		"\n"
 		"https://vgmrips.net/\n"
 		"\n"
 		"Current status:\n"
+		"\n"
 		"VGM file support up to version " VGM_VER_STR "\n"
+		"\n"
 		"Currently %u chips are emulated:\n"	// CHIP_COUNT
+		"\n"
 		"%s\n"	// ChipList
 		"\n"
 		"Using:\n"
+		"\n"
 		"ZLib " ZLIB_VERSION " (http://www.zlib.org/)\n"
 		"libvgm (https://github.com/ValleyBell/libvgm/)\n"
 		"\n"
-		"Special thanks goes to Maxim for the\n"
-			"initial in_vgm plugin (v0.3x)\n"
+		"Special thanks goes to Maxim for the initial in_vgm plugin (v0.3x)\n"
+		"\n"
+		"Additional thanks to Valley Bell for libvgm and the rebuild of this plugin to link against it.\n"
+		"\n"
 		"Thanks to all the people that worked on/contributed to libvgm.\n";
 	std::string chipList;
 	std::string finalMsg;
