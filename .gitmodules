@@ -1,3 +1,9 @@
 [submodule "libvgm"]
 	path = libvgm
 	url = https://github.com/ValleyBell/libvgm.git
+[submodule "zlib"]
+	path = zlib
+	url = git@github.com:madler/zlib.git
+[submodule "libiconv-win-build"]
+	path = libiconv-win-build
+	url = https://github.com/kiyolee/libiconv-win-build.git
